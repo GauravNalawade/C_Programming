@@ -1,3 +1,4 @@
+//1.Write a program which accept number from user and display its multiplication of factors.
 #include <stdio.h>
 int MultFact(int iNo)
 {
@@ -25,4 +26,5 @@ int main()
     printf("%d", iRet);
 
     return 0;
+
 }
