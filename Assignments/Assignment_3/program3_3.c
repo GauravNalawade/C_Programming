@@ -1,17 +1,15 @@
 #include <stdio.h>
-
-void PrintEven(int iNo)
+void DisplayEvenFactor(int iNo)
 {
-    if (iNo <= 0)
-    {
-        return;
-    }
-
     int i = 0;
 
-    for (i = 1; i <= iNo * 2; i++)
+    if (iNo < 0)
     {
-        if (i % 2 == 0)
+        iNo = -iNo;
+    }
+    for (i = 1; i <= iNo / 2; i++)
+    {
+        if ((iNo % i == 0) && (i % 2 == 0))
         {
             printf("%d\t", i);
         }
@@ -19,11 +17,9 @@ void PrintEven(int iNo)
 }
 int main()
 {
-
     int iValue = 0;
     printf("Enter Number:");
     scanf("%d", &iValue);
-
-    PrintEven(iValue);
+    DisplayEvenFactor(iValue);
     return 0;
 }
