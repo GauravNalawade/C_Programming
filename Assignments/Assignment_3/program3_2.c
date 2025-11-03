@@ -1,3 +1,4 @@
+//2. Write a program which accept number from user and print even factors of that number.
 #include <stdio.h>
 void DisplayFactor(int iNo)
 {
@@ -22,4 +23,5 @@ int main()
     scanf("%d", &iValue);
     DisplayFactor(iValue);
     return 0;
+
 }
