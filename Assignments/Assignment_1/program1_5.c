@@ -1,3 +1,4 @@
+//4. Accept one number and check whether is is divisible by 5 or not.
 #include <stdio.h>
 void Accept(int iNo)
 {
@@ -14,4 +15,5 @@ int main()
     scanf("%d", &iValue);
     Accept(iValue);
     return 0;
+
 }
