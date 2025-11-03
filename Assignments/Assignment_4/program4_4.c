@@ -1,3 +1,4 @@
+//4.Write a program which accept number from user and return summation of all its non factors.
 #include <stdio.h>
 int SumNonFact(int iNo)
 {
@@ -22,4 +23,5 @@ int main()
     iRet = SumNonFact(iValue);
     printf("%d", iRet);
     return 0;
+
 }
