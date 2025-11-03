@@ -1,3 +1,4 @@
+//2.Write a program which accept number from user and display its factors in decreasing order.
 #include <stdio.h>
 void FactRev(int iNo)
 {
@@ -19,4 +20,5 @@ int main()
     scanf("%d", &iValue);
     FactRev(iValue);
     return 0;
+
 }
