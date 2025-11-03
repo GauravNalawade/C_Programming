@@ -1,3 +1,4 @@
+//2. Find Maximum of Two Numbers
 #include <stdio.h>
 int FindMax(int a, int b)
 {
@@ -22,4 +23,5 @@ int main()
     printf("Maximum is:%d\n", result);
 
     return 0;
+
 }
