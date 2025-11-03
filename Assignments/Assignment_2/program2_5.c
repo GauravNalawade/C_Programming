@@ -1,3 +1,4 @@
+//5. Accept number from user and check whether number is even or odd.
 #include <stdio.h>
 #include <stdbool.h>
 bool ChkEven(int iNo)
@@ -29,4 +30,5 @@ int main()
     }
 
     return 0;
+
 }
