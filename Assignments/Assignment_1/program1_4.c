@@ -1,3 +1,4 @@
+//4. Accept one number and check whether is is divisible by 5 or not.
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -32,4 +33,5 @@ int main()
         printf("Not Divisible by 5");
     }
     return 0;
+
 }
