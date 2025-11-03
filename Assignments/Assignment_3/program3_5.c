@@ -1,3 +1,4 @@
+//5. Accept on character from user and check whether that character is vowel (a,e,i,o,u) or not.
 #include <stdio.h>
 #include <stdbool.h>
 typedef int BOOL;
@@ -33,4 +34,5 @@ int main()
         printf("It is not Vowel");
     }
     return 0;
+
 }
