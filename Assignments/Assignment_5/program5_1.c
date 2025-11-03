@@ -1,3 +1,4 @@
+//1. Check Even or Odd
 #include <stdio.h>
 void CheckEvenOdd(int num)
 {
@@ -18,4 +19,5 @@ int main()
 
     CheckEvenOdd(number);
     return 0;
+
 }
