@@ -1,3 +1,4 @@
+//3. Write a program accept number fro ser and prin n factors of that number. ‘
 #include <stdio.h>
 void DisplayEvenFactor(int iNo)
 {
@@ -22,4 +23,5 @@ int main()
     scanf("%d", &iValue);
     DisplayEvenFactor(iValue);
     return 0;
+
 }
