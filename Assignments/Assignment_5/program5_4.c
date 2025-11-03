@@ -1,3 +1,4 @@
+//4. Check Positive, Negative, or Zero
 #include <stdio.h>
 void CheckNumberType(int num)
 {
@@ -21,4 +22,5 @@ int main()
     scanf("%d", &number);
     CheckNumberType(number);
     return 0;
+
 }
