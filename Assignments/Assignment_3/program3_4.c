@@ -1,3 +1,4 @@
+//4. Accept one character from user and convert case of that character.
 #include <stdio.h>
 void DisplayConvert(char CValue)
 {
@@ -18,4 +19,5 @@ int main()
 
     DisplayConvert(cValue);
     return 0;
+
 }
